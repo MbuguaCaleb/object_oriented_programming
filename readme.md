@@ -38,6 +38,20 @@ Java manages our memory in 2 different locations:
 
 
 ```
+**KeyWords**
+
+```aidl
+
+static--->it is used when we are calling a method from the main
+method.
+```
+**Encapsulation**
+
+```aidl
+
+Bundle the data and methods that operate on the data inside a single unit/object.
+
+```
 **Notes By**
 
 ```aidl
