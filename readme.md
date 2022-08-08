@@ -52,6 +52,25 @@ method.
 Bundle the data and methods that operate on the data inside a single unit/object.
 
 ```
+
+**Getters and Setters**
+
+```aidl
+
+They are used for vaildation.
+
+There may be datarisks when i allow seeting of class fields/attributes
+directly.
+
+setters and getters are the functions i use to access the class fields.
+
+They come in when i do not want to access my class attributes directly.
+
+In Java we should make our fields private(i.e accessible only to the class
+then have getters and setters)
+
+
+```
 **Notes By**
 
 ```aidl
