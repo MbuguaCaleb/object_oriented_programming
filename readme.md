@@ -24,6 +24,20 @@ TextBox Class.
 
 ```
 
+
+**Memory Management**
+
+```aidl
+
+Java manages our memory in 2 different locations:
+
+
+1.Heap - Objects.
+
+2.Stack - Primitives and Short lived variables.
+
+
+```
 **Notes By**
 
 ```aidl
