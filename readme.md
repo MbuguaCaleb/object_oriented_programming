@@ -76,6 +76,32 @@ It means that we should reduce complexity by hiding unecessary details in
 our classes.
 
 ```
+**Coupling**
+
+```aidl
+
+It is the level of dependency between classes.
+
+The more our classes are coupled to each other, the more costly
+our changes are going to be.
+
+By reducing coupling we can reduce the impact of changes
+
+We should hide the uncessarry details from the class as much
+as possible especially for util methods than can be used internally.
+
+We should declare those as private.
+
+
+Because private methods are used internally within the class the other
+methods are not affected.
+
+We should strictly adhere to using the methods than can be used
+internally to stictly internally.
+
+OOP is a way of thinking,it is a way of building software.
+
+```
 **Notes By**
 
 ```aidl

@@ -12,7 +12,7 @@ public class Employee {
         this.baseSalary = baseSalary;
     }
 
-    public int getBaseSalary(){
+    private int getBaseSalary(){
         return baseSalary;
     }
 
@@ -23,7 +23,8 @@ public class Employee {
     }
 
     //the getter is just returning
-    public  int  getHourlyRate(){
+    //By making a method private i am abstacting it(i.e making it only available to the specific class)
+    private  int  getHourlyRate(){
         return hourlyRate;
     }
 
