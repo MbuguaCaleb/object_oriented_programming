@@ -69,6 +69,11 @@ They come in when i do not want to access my class attributes directly.
 In Java we should make our fields private(i.e accessible only to the class
 then have getters and setters)
 
+```
+**Abstraction**
+```
+It means that we should reduce complexity by hiding unecessary details in
+our classes.
 
 ```
 **Notes By**
