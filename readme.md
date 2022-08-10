@@ -144,6 +144,33 @@ when we have to.
 We only should overload when we are passing two very different methods to 
 our constructors.
 ```
+
+**Static Methods**
+
+```aidl
+
+In OOP a class can have two types of members.
+
+
+1.Instance members.
+
+eg the attributes i pass to constuctor when instantiating an Object.
+
+emplyee.baseSalary;
+
+2.Static members.
+
+They are fields and methods beloging to a class and not an Object.
+
+example is when you have an employee class and you want to represent the number
+of employees.
+
+When calling instance methods within the static methods it is good to note 
+that you cannot see the object methods unless you instantiate them.
+
+The main method is static so that it can be directly called without creating
+a new Object.
+```
 **Notes By**
 
 ```aidl

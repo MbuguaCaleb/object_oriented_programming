@@ -4,6 +4,8 @@ public class Employee {
     private int baseSalary;
     private int hourlyRate;
 
+    public static int numberOfEmployees;
+
     // a constructos hould have exactly the same name as the name of the class
 //    public Employee(int baseSalary){
 //       setBaseSalary(baseSalary);
@@ -14,14 +16,20 @@ public class Employee {
 
     //recalling constuctor with overloading
     public Employee(int baseSalary){
-         this(baseSalary,0);
+         this(baseSalary,0); //it is very good practice to reuse a constructor especially when calling it twice
          }
 
     public Employee(int baseSalary,int hourlyRate){
        setBaseSalary(baseSalary);
        setHourlyRate(hourlyRate);
+       numberOfEmployees ++;
     }
 
+
+    //static method
+    public static void printNumberOfEmployees(){
+        System.out.println(numberOfEmployees);
+    }
     //getters and setters
     private void setBaseSalary(int baseSalary){
         if(baseSalary <=0 )
