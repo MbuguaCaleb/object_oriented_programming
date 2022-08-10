@@ -126,7 +126,6 @@ We can use setters in our constructors for better validation.
 **Method Overloading**
 
 ```aidl
-
 This is creating different implementations of the same method,
 but with different parameters.
 
@@ -139,10 +138,16 @@ but not java
 
 The Only way to make parameters optional is by overloading a method.
 
+We should be careful of overloading methods and constrictors and only do that
+when we have to.
+
+We only should overload when we are passing two very different methods to 
+our constructors.
 ```
 **Notes By**
 
 ```aidl
+
 Mbugua Caleb.
 
 ```
