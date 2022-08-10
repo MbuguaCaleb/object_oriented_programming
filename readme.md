@@ -102,6 +102,44 @@ internally to stictly internally.
 OOP is a way of thinking,it is a way of building software.
 
 ```
+
+**Constructors**
+
+```aidl
+
+They are better design than getters and setters..
+
+
+Through them we pass initial values during creation of the class.
+
+A constructor is a special method that is called when we create a new Object.
+
+
+If we do not create a custom constructor java creates a default constuctor for us.
+
+
+We use constuctors to intialize our Objects.
+
+We can use setters in our constructors for better validation.
+```
+
+**Method Overloading**
+
+```aidl
+
+This is creating different implementations of the same method,
+but with different parameters.
+
+i call the methods within the class without using this keyword.
+Important to know.
+
+
+In python and c sharp we can have default values to functions/constructors
+but not java
+
+The Only way to make parameters optional is by overloading a method.
+
+```
 **Notes By**
 
 ```aidl

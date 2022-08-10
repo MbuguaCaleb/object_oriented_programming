@@ -4,9 +4,14 @@ public class Employee {
     private int baseSalary;
     private int hourlyRate;
 
+    // a constructos hould have exactly the same name as the name of the class
+    public Employee(int baseSalary,int hourlyRate){
+       setBaseSalary(baseSalary);
+       setHourlyRate(hourlyRate);
+    }
 
     //getters and setters
-    public  void setBaseSalary(int baseSalary){
+    private void setBaseSalary(int baseSalary){
         if(baseSalary <=0 )
             throw new IllegalArgumentException("Salary cannot be 0 or less");
         this.baseSalary = baseSalary;
@@ -16,7 +21,7 @@ public class Employee {
         return baseSalary;
     }
 
-    public void setHourlyRate(int hourlyRate){
+    private void setHourlyRate(int hourlyRate){
         if(hourlyRate <=0 )
             throw new IllegalArgumentException("Hourly Rate Cannot be 0 or less");
         this.hourlyRate = hourlyRate;
@@ -30,6 +35,9 @@ public class Employee {
 
     public int calculateWage(int extraHours){
         return baseSalary + (hourlyRate * extraHours);
+    }
+    public int calculateWage(){
+        return calculateWage(0);
     }
 
 }
