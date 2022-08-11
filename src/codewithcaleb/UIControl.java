@@ -1,7 +1,7 @@
 package codewithcaleb;
 
 public class UIControl  {
-    boolean isEnabled = true;
+   private boolean isEnabled = true;
 
     public UIControl(boolean isEnabled) {
        this.isEnabled = isEnabled;
