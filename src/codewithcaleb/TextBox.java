@@ -12,6 +12,12 @@ public class TextBox extends UIControl{
         System.out.println("TextBox");
     }
 
+    //An annotation is a method that we attach to give more information to the Java Compiler
+    @Override
+    public  String toString(){
+        return  text;
+
+    }
     public void setText(String text){
         this.text = text;
     }
@@ -19,6 +25,8 @@ public class TextBox extends UIControl{
     public void clear(){
         text = "";
     }
+
+
 
 
 
