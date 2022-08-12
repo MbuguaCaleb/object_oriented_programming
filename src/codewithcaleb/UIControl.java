@@ -1,6 +1,6 @@
 package codewithcaleb;
 
-public class UIControl  {
+public abstract class UIControl  {
    private boolean isEnabled = true;
 
 //    public UIControl(boolean isEnabled) {
@@ -9,9 +9,7 @@ public class UIControl  {
 //    }
 
     //method for rendering control Objects
-    public void render(){
-
-    }
+    public abstract void render();
     public  void enable(){
         isEnabled =true;
     }
