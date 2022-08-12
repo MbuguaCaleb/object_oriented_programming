@@ -10,7 +10,7 @@ public abstract class UIControl  {
 
     //method for rendering control Objects
     public abstract void render();
-    public  void enable(){
+    public  final void enable(){
         isEnabled =true;
     }
 
