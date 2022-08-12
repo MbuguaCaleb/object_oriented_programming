@@ -3,11 +3,15 @@ package codewithcaleb;
 public class UIControl  {
    private boolean isEnabled = true;
 
-    public UIControl(boolean isEnabled) {
-       this.isEnabled = isEnabled;
-       System.out.println("UIControl");
-    }
+//    public UIControl(boolean isEnabled) {
+//       this.isEnabled = isEnabled;
+//       System.out.println("UIControl");
+//    }
 
+    //method for rendering control Objects
+    public void render(){
+
+    }
     public  void enable(){
         isEnabled =true;
     }
