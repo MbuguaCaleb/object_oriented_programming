@@ -11,6 +11,7 @@ public class TaxCalculator2018 implements TaxCalculator {
 
     @Override
     public double calculateTax(){
+        //TaxCalculator.minimumTax
         return  taxableIncome * 0.4;
     }
 
